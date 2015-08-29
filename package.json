@@ -12,10 +12,10 @@
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/zaach/jsonlint.git"
+    "url": "git://github.com/arnostpleskot/jsonlint.git"
   },
   "bugs": {
-    "url": "http://github.com/zaach/jsonlint/issues"
+    "url": "http://github.com/arnostpleskot/jsonlint/issues"
   },
   "main": "lib/jsonlint.js",
   "bin": {
@@ -23,15 +23,6 @@
   },
   "engines": {
     "node": ">= 0.6"
-  },
-  "dependencies": {
-    "nomnom": ">= 1.5.x",
-    "JSV": ">= 4.0.x"
-  },
-  "devDependencies": {
-    "test": "*",
-    "jison": "*",
-    "uglify-js": "*"
   },
   "scripts": {
     "test": "node test/all-tests.js"
